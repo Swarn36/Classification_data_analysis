@@ -1,37 +1,20 @@
-# Portugese_banking_data_analysis
-The data is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
-This dataset is public available for research. The details are described in [Moro et al., 2011].
+Welcome to the Classification_data_analysis repository! This project serves as a comprehensive collection of my work and learning progress on classification problems. One can explore various classification models from this repository.
+Introduction
+In the world of machine learning, classification problems are ubiquitous. From predicting customer churn to identifying spam emails, effective classification models are essential. This repository consolidates my work on diverse classification tasks.
 
-[Moro et al., 2011]
+Models Included
+The repository covers a wide range of classification models, including:
 
-S. Moro, R. Laureano and P. Cortez. Using Data Mining for Bank Direct Marketing: An Application of the CRISP-DM Methodology.
+Logistic Regression: A fundamental linear model for binary classification.
+Random Forest: A versatile ensemble method for both classification and regression.
+Gradient Boosting: Boosted decision trees for improved predictive performance.
+Decision Tree: A simple yet powerful tree-based model for classification.
+PCA (Principal Component Analysis): Dimensionality reduction technique often used as a preprocessing step for classification.
+KMeans: Unsupervised learning algorithm commonly used for clustering, but adaptable for classification tasks.
+...and more! Each model is implemented with clarity and is accompanied by explanatory documentation.
 
-In P. Novais et al. (Eds.), Proceedings of the European Simulation and Modelling Conference - ESM'2011, pp. 117-121, Guimarães, Portugal, October, 2011. EUROSIS.
+As my learning path will discover more models in this category, I will try my best to input those along with these.
 
-Available at: 
-  * [pdf](http://hdl.handle.net/1822/14838)
-  * [bib](http://www3.dsi.uminho.pt/pcortez/bib/2011-esm-1.txt)
 
-Input variables:
-* bank client data:
-    1. age (numeric)
-    2. job : type of job (categorical: "admin.","unknown","unemployed","management","housemaid","entrepreneur","student","blue-collar","self-employed","retired","technician","services") 
-    3. marital : marital status (categorical: "married","divorced","single"; note: "divorced" means divorced or widowed)
-    4. education (categorical: "unknown","secondary","primary","tertiary")
-    5. default: has credit in default? (binary: "yes","no")
-    6. balance: average yearly balance, in euros (numeric) 
-    7. housing: has housing loan? (binary: "yes","no")
-    8. loan: has personal loan? (binary: "yes","no")
-* related with the last contact of the current campaign:
-  9. contact: contact communication type (categorical: "unknown","telephone","cellular") 
-  10. day: last contact day of the month (numeric)
-  11. month: last contact month of year (categorical: "jan", "feb", "mar", ..., "nov", "dec")
-  12. duration: last contact duration, in seconds (numeric)
-* other attributes:
-  13. campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
-  14. pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric, -1 means client was not previously contacted)
-  15. previous: number of contacts performed before this campaign and for this client (numeric)
-  16. poutcome: outcome of the previous marketing campaign (categorical: "unknown","other","failure","success")
-
-* Output variable (desired target):
-  17. y - has the client subscribed a term deposit? (binary: "yes","no")
+Contributing
+If you'd like to contribute, please fork the repository and create a pull request. Contributions, whether in the form of new models, improvements to existing models, or additional documentation, are highly encouraged.
